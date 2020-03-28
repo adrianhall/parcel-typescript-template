@@ -1,12 +1,26 @@
 {
-  "name": "webapp",
+  "name": "parcel-typescript-template-webapp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A template for a react app",
+  "author": "Adrian Hall <photoadrian@outlook.com>",
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "run-s clean",
+    "build": "parcel build public/index.html --no-source-maps",
+    "clean": "rimraf ./dist",
+    "start": "parcel public/index.html --open"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.27",
+    "@types/react-dom": "^16.9.5",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  }
 }
