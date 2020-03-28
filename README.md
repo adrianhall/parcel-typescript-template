@@ -2,10 +2,11 @@
 
 This is a template project for a [React application](https://reactjs.org) that uses the following components:
 
-* [Parcel]
-* [TypeScript]
-* [SASS]
-* [ESLint]
+* [Parcel](https://parceljs.org)
+* [TypeScript](https://www.typescriptlang.org/)
+* [SASS](https://sass-lang.com/dart-sass)
+* [ESLint](https://eslint.org/)
+* [Stylelint](https://stylelint.io/)
 
 There are three directories:
 
