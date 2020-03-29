@@ -10,6 +10,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:jsdoc/recommended',
     'standard'
   ],
   globals: {
@@ -28,7 +29,8 @@ module.exports = {
   plugins: [
     'react',
     'react-hooks',
-    '@typescript-eslint'
+    '@typescript-eslint',
+    'jsdoc'
   ],
   settings: {
     react: { version: 'detect' }
