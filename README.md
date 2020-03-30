@@ -1,12 +1,13 @@
 # Parcel / React / TypeScript / SASS / ESLint Template
 
-This is a template project for a [React application](https://reactjs.org) that uses the following components:
+This is a template project for a [React application](https://reactjs.org) that uses the following toolchain:
 
-* [Parcel](https://parceljs.org)
-* [TypeScript](https://www.typescriptlang.org/)
-* [SASS](https://sass-lang.com/dart-sass)
-* [ESLint](https://eslint.org/)
-* [Stylelint](https://stylelint.io/)
+* Bundler: [Parcel](https://parceljs.org)
+* Language: [TypeScript](https://www.typescriptlang.org/)
+* CSS: [SASS](https://sass-lang.com/dart-sass)
+* Code Linter: [ESLint](https://eslint.org/)
+* Style Linter: [Stylelint](https://stylelint.io/)
+* Visual Test: [Storybook](https://https://storybook.js.org/)
 
 There are three directories:
 
