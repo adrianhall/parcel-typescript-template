@@ -7,7 +7,7 @@ import BusySpinner from '.';
 export default {
   title: 'lib/components/BusySpinner',
   component: BusySpinner,
-  decorators: [ withKnobs ]
+  decorators: [withKnobs]
 };
 
 const rootStyle: React.CSSProperties = {

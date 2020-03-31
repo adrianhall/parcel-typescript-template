@@ -1,3 +1,7 @@
+# We use npm to trigger deployments and updates, so ensure that
+# the node pieces are ignored.
+/node_modules
+/package-lock.json
 
 # Created by https://www.gitignore.io/api/macos,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=macos,visualstudiocode

@@ -1,0 +1,15 @@
+{
+  "name": "parcel-typescript-template-infrastructure",
+  "version": "1.0.0",
+  "description": "Infrastructure deployment for parcel-typescript-template",
+  "author": "Adrian Hall <photoadrian@outlook.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "predeploy": "terraform validate",
+    "deploy": "terraform apply -auto-approve",
+    "destroy": "terraform destroy",
+    "postdeploy": "terraform output -json > configuration.json",
+    "postinstall": "terraform init"
+  }
+}

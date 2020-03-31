@@ -1,0 +1,35 @@
+{
+  "name": "parcel-typescript-template",
+  "version": "1.0.0",
+  "author": "Adrian Hall <photoadrian@outlook.com>",
+  "license": "MIT",
+  "description": "Template repository for a deployable React app",
+  "keywords": [
+    "react",
+    "azure",
+    "template",
+    "parcel",
+    "terraform"
+  ],
+  "private": true,
+  "scripts": {
+    "deploy": "run-s infrastructure:deploy webapp:deploy",
+    "postinstall": "run-s infrastructure:install webapp:install",
+    "infrastructure:deploy": "cd infrastructure && npm run deploy",
+    "infrastructure:destroy": "cd infrastructure && npm run destroy",
+    "infrastructure:install": "cd infrastructure && npm install",
+    "webapp:deploy": "cd webapp && npm run deploy",
+    "webapp:install": "cd webapp && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianhall/parcel-typescript-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianhall/parcel-typescript-template/issues"
+  },
+  "homepage": "https://github.com/adrianhall/parcel-typescript-template#readme",
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
+}
