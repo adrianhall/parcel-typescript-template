@@ -17,11 +17,13 @@
     "strict": true,
     /* Specify module resolution strategy */
     "moduleResolution": "node",
+    /* Don't emit javascript */
+    "noEmit": true,
     /* Base directory to resolve non-absolute module names */
     "baseUrl": "./src",
     /* Maps imports to locations - e.g. ~models will go to ./src/models */
     "paths": {
-      "~*": [ "./*" ]
+      "~/*": [ "./*" ]
     },
     /* List of folders to include type definitions from */
     "typeRoots": [

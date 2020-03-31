@@ -1,0 +1,23 @@
+@import 'base';
+
+.fullPage {
+  @include full-page();
+
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: block;
+}
+
+.content {
+  display: block;
+  flex-grow: 1;
+}
+
+.footer {
+  display: block;
+}

@@ -9,13 +9,17 @@ This is a template project for a [React application](https://reactjs.org) that u
 * Style Linter: [Stylelint](https://stylelint.io/)
 * Visual Test: [Storybook](https://https://storybook.js.org/)
 
-There are three directories:
+I also include the following packages alongside React (including all tooling):
+
+* [React Router](https://reacttraining.com/react-router/)
+* [Ant Design](https://ant.design/)
+
+There are two directories:
 
 * `infrastructure` contains the Azure infrastructure.
-* `backend` contains the Azure backend code.
 * `webapp` contains the front end code.
 
-## Deploying
+## Deploying the web application (including infrastructure)
 
 ```bash
 $> npm install

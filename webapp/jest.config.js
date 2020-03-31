@@ -5,6 +5,9 @@ module.exports = {
   coveragePathIgnorePatterns: [
     '/.*.stories.[jt]sx?$',
     '/.*.test.[jt]sx?$',
+    // Do not check coverage of index.ts files since they are always
+    // export combinations.  DO check index.tsx - those are components
+    '/index.ts$',
     '/node_modules'
   ],
   moduleNameMapper: {
