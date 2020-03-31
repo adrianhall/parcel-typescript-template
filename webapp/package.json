@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "prebuild": "run-s clean lint",
+    "prebuild": "run-s clean lint test",
     "build": "parcel build public/index.html --no-source-maps",
     "clean": "rimraf ./dist",
     "predeploy": "run-s build",

@@ -53,13 +53,3 @@ readdirp(sourcedir)
   .on('warn', (warning) => console.warn('[WARNING] ', warning))
   .on('error', (error) => console.error('[ERROR]', error))
   .on('end', () => console.info('[DONE]'));
-
-
-//const files = fs.readdirSync(sourcedir);
-//files.forEach((filename) => {
-//  const fqp = path.resolve(sourcedir, filename);
-//  const s = fs.statSync(fqp);
-//  if (s.isFile()) {
-//    uploadToContainer(containerClient, filename, fqp);
-//  }
-//});
