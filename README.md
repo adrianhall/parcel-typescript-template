@@ -1,5 +1,7 @@
 # Parcel / React / TypeScript / SASS / ESLint Template
 
+**THIS PROJECT IS NO LONGER MAINTAINED - DO NOT USE**
+
 This is a template project for a [React application](https://reactjs.org) that uses the following toolchain:
 
 * Bundler: [Parcel](https://parceljs.org)
